@@ -13,5 +13,4 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: run script # stepname
-        run: ls -la
-          #run: python hello.py #step
+        run: python hello.py #step
