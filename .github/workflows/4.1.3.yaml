@@ -1,0 +1,14 @@
+name: CI Pipeline # name workflow
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build: #job name
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository # stepname
+        uses: actions/checkout@v4 #step
