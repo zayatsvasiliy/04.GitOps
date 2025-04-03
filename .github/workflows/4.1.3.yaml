@@ -11,4 +11,4 @@ jobs:
 
     steps:
       - name: run script # stepname
-        run: python3 hello.py #step
+        run: python hello.py #step
