@@ -10,5 +10,5 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository # stepname
-        uses: actions/checkout@v4 #step
+      - name: run script # stepname
+        uses: run: python3 hello.py #step
