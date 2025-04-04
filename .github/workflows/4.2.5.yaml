@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  testTask2.5:
+  testTask2:
     runs-on: ubuntu-latest
 
     steps:
