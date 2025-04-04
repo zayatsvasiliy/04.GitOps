@@ -1,4 +1,4 @@
-name: CI Pipeline # name workflow
+name: task_2.5 # name workflow
 
 on:
   push:
@@ -6,7 +6,7 @@ on:
       - master
 
 jobs:
-  build:
+  test_task_2.5:
     runs-on: ubuntu-latest
 
     steps:
